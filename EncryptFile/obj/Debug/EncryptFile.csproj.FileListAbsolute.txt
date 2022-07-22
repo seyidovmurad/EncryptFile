@@ -1,0 +1,16 @@
+C:\Users\01mur\source\repos\EncryptFile\EncryptFile\bin\Debug\EncryptFile.exe.config
+C:\Users\01mur\source\repos\EncryptFile\EncryptFile\bin\Debug\EncryptFile.exe
+C:\Users\01mur\source\repos\EncryptFile\EncryptFile\bin\Debug\EncryptFile.pdb
+C:\Users\01mur\source\repos\EncryptFile\EncryptFile\obj\Debug\EncryptFile.csproj.AssemblyReference.cache
+C:\Users\01mur\source\repos\EncryptFile\EncryptFile\obj\Debug\MainWindow.g.cs
+C:\Users\01mur\source\repos\EncryptFile\EncryptFile\obj\Debug\App.g.cs
+C:\Users\01mur\source\repos\EncryptFile\EncryptFile\obj\Debug\EncryptFile_MarkupCompile.cache
+C:\Users\01mur\source\repos\EncryptFile\EncryptFile\obj\Debug\EncryptFile_MarkupCompile.lref
+C:\Users\01mur\source\repos\EncryptFile\EncryptFile\obj\Debug\MainWindow.baml
+C:\Users\01mur\source\repos\EncryptFile\EncryptFile\obj\Debug\EncryptFile.g.resources
+C:\Users\01mur\source\repos\EncryptFile\EncryptFile\obj\Debug\EncryptFile.Properties.Resources.resources
+C:\Users\01mur\source\repos\EncryptFile\EncryptFile\obj\Debug\EncryptFile.csproj.GenerateResource.cache
+C:\Users\01mur\source\repos\EncryptFile\EncryptFile\obj\Debug\EncryptFile.csproj.CoreCompileInputs.cache
+C:\Users\01mur\source\repos\EncryptFile\EncryptFile\obj\Debug\EncryptFile.exe
+C:\Users\01mur\source\repos\EncryptFile\EncryptFile\obj\Debug\EncryptFile.pdb
+C:\Users\01mur\source\repos\EncryptFile\EncryptFile\obj\Debug\EncryptFile.csproj.Fody.CopyLocal.cache

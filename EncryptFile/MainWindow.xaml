@@ -1,0 +1,44 @@
+﻿<Window x:Class="EncryptFile.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EncryptFile"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="222" Width="566" FontFamily="TimesNewRoman" FontSize="13">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <!--Select file-->
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+            <Button x:Name="OpenFileBtn" Content="File" Padding="20,5" Margin="10,0" Click="OpenFileBtn_Click"/>
+            <TextBox Text="{Binding FilePath}" Padding="5" Width="450" VerticalContentAlignment="Center" TextChanged="TextBox_TextChanged"/>
+        </StackPanel>
+
+        <!--Password Encrypt-->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Center">
+            <TextBlock Text="Password" Margin="10,0" VerticalAlignment="Center"/>
+            <PasswordBox x:Name="Password" PasswordChar="x" MaxLength="6" Padding="5" Width="130" VerticalContentAlignment="Center"/>
+            
+            
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="20,0">
+                <RadioButton Content="Encrypt" IsChecked="{Binding IsEncrypt}"/>
+                <RadioButton  Margin="20,0" Content="Decrypt"/>
+            </StackPanel>
+        </StackPanel>
+
+        <!--Progress-->
+        <ProgressBar Grid.Row="2" Margin="20,13" Value="{Binding ProgressPercentage}"/>
+
+        <!--Buttons-->
+        <StackPanel Grid.Row="3" Orientation="Horizontal" VerticalAlignment="Center"  HorizontalAlignment="Right">
+            <Button x:Name="StartBtn" Content="Start" Padding="20,5" Click="StartBtn_Click"/>
+            <Button x:Name="CancelBtn" Content="Cancel" Padding="20,5" Margin="20,0" Click="CancelBtn_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
